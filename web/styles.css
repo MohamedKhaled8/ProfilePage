@@ -1,0 +1,28 @@
+/* IRANYekan webfont declarations (Medium + Regular) */
+@font-face {
+  font-family: 'IRANYekan Medium';
+  src: url('https://db.onlinewebfonts.com/t/ba3febea917370dc1c5106c132d7c553.eot');
+  src: url('https://db.onlinewebfonts.com/t/ba3febea917370dc1c5106c132d7c553.eot?#iefix') format('embedded-opentype'),
+       url('https://db.onlinewebfonts.com/t/ba3febea917370dc1c5106c132d7c553.woff2') format('woff2'),
+       url('https://db.onlinewebfonts.com/t/ba3febea917370dc1c5106c132d7c553.woff') format('woff'),
+       url('https://db.onlinewebfonts.com/t/ba3febea917370dc1c5106c132d7c553.ttf') format('truetype'),
+       url('https://db.onlinewebfonts.com/t/ba3febea917370dc1c5106c132d7c553.svg#IRANYekan Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular variant (if available on provider, reuse same family name with different weight) */
+@font-face {
+  font-family: 'IRANYekan';
+  src: url('https://db.onlinewebfonts.com/t/ba3febea917370dc1c5106c132d7c553.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Utility classes */
+.iranyekan-medium { font-family: 'IRANYekan Medium', IRANYekan, sans-serif; }
+.iranyekan-regular { font-family: IRANYekan, 'IRANYekan Medium', sans-serif; }
+
+body { font-family: IRANYekan, 'IRANYekan Medium', sans-serif; }
