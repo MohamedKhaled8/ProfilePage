@@ -7,7 +7,7 @@ import 'package:my_website/features/splash/presentation/cinematic_splash_page.da
 
 class AppRouter {
   static final router = GoRouter(
-    initialLocation: Routes.splash,
+    initialLocation: Routes.home,
     routes: [
       GoRoute(
         path: Routes.splash,
